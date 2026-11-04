@@ -1,19 +1,36 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Atividade: Jogo da Forca em Python
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Construa um jogo da Forca para praticar manipulação de strings, loops, condicionais, entrada de dados e seleção aleatória em Python.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Implementar uma partida de Forca
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Escreva um programa que escolha uma palavra secreta e permita que o jogador tente adivinhá-la, uma letra por vez.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra de uma lista predefinida.
+- Mostrar cada letra ainda não descoberta como um sublinhado, separado das demais letras.
+- Solicitar palpites de letras e revelar todas as ocorrências de cada letra correta.
+- Permitir no máximo seis palpites incorretos.
+- Encerrar a partida quando a palavra for descoberta ou quando o limite de palpites incorretos for atingido.
+- Exibir uma mensagem de vitória ou derrota; em caso de derrota, revelar a palavra secreta.
+
+### 🛠️ Validar palpites e permitir outra partida
+
+#### Descrição
+Melhore a interação do jogo para tratar palpites inválidos ou repetidos e permitir que o jogador inicie uma nova partida.
+
+#### Requisitos
+O programa concluído deve:
+
+- Aceitar apenas um caractere alfabético por palpite e ignorar diferenças entre letras maiúsculas e minúsculas.
+- Informar quando o jogador repetir uma letra, sem descontar uma tentativa incorreta.
+- Não descontar tentativas por entradas inválidas.
+- Perguntar ao jogador se deseja iniciar outra partida depois que uma terminar.
